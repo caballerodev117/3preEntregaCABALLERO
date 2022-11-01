@@ -30,19 +30,22 @@
             text-shadow: 2px 2px 4px #2c2b2b;
         }
         &__aliados{ 
-            margin: 5%;
+            margin-top: 5%;
             display: flex;
             flex-direction: row;
             @include centered;
-            justify-content: space-around;
         }
         &__merka{
             @include centered;
+            margin-right: 2rem
         }
         &__viva{
             @include centered;
+            margin-left: 2rem;
+            margin-right: 2rem;
         }
         &__cesteria{
             @include centered;
+            margin-left: 2rem;
         }
 }

@@ -5,13 +5,13 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 		&__titular{
 			font-weight: 400;
 			letter-spacing: .4em;
 			font-size: 180%;
 			margin-top: 2%;
-			margin-bottom: 2%;
+			margin-bottom: 1%;
 			position: relative;
 			@include centered
 		}
@@ -34,8 +34,8 @@
 			box-shadow: $boxShadowDark;
 		}
 		&__temporada{
-			margin-top: 2%;
-			margin-bottom: 2%;
+			margin-top: 1%;
+			margin-bottom: 1%;
 			font-weight: 200;
 			letter-spacing: .1em;
 			font-size: 180%;
