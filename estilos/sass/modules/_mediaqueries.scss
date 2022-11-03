@@ -1,29 +1,164 @@
-@media screen and (min-width:1400px) and (max-width:2560px) {
+// Rango  2540-2700
+@media screen and (min-width:2540px) and (max-width:2700px) {
 	.main__hero {
 		max-width: 100%;
 	}
 	.main__copy {
-		font-size: 215%; margin-bottom: 1rem;
+		font-size: 215%;
 	}
 	.main__video{height: 100vh;
 	}
 	.nosotros__videobox {
 		margin: 3rem;
 		border-radius: 48px;
-		width: 45%;
-		height: 76%;
+		width: 48%;
+		height: 100%;
 		overflow: hidden;
 	}
 	.nosotros__parrafo {
 		margin-top: 3rem;
 		border-radius: 48px;
 		width: 45%;
-		height: 79%;
+		height: 88%;
 		>p {
-			font-size: 120%;
+			font-size: 150%;
 			font-family: $font2;
 			padding: 1rem;			
-		}}
+		}
+	}
+	.productos__titular{
+			font-weight: 400;
+			letter-spacing: .4em;
+			font-size: 250%;
+			margin-top: 2%;		
+	}
+	.productos__temporada{
+		font-size: 310%;
+	}
+	.productos__video1{
+		margin-right: 10%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__video2{
+		margin-left: 5%;
+		margin-right: 5%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__video3{
+		margin-left: 10%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__pimentones{
+		font-size: 150%;
+	}
+	.productos__remolacha{
+		font-size: 150%;
+	}
+	.productos__zanahorias{
+		font-size: 150%;
+	}
+	.productos__tomates{
+		font-size: 150%;
+	}
+	.productos__miel{
+		font-size: 150%;
+	}
+	.encuentranos__aliados{
+		padding-top: 3%;
+	}
+	.encuentranos__video1{
+		margin-right: 7%;
+	}
+	.encuentranos__canasta{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.encuentranos__video2{
+		margin-left: 7%;
+		margin-top: 0%;
+	}
+	.encuentranos__titular{
+		font-size: 300%;
+	}
+	.encuentranos__cesteria{
+		margin-left: 5%;
+	}
+	.encuentranos__viva{
+		margin-left: 10%;
+	}
+	.contacto__titular{
+		font-size: 300%;
+	}
+	.contacto__fstitle{
+		font-size: 250%;
+	}
+}
+// Rango 1300-1900
+@media screen and (min-width:1300px) and (max-width:1900px) {
+	.main__hero {
+		max-width: 100%;
+	}
+	.main__copy {
+		font-size: 215%;
+	}
+	.main__video{height: 100vh;
+	}
+	.productos__titular{
+			font-weight: 400;
+			letter-spacing: .4em;
+			font-size: 180%;
+			margin-top: 2%;		
+	}
+	.productos__temporada{
+		font-size: 200%;
+	}
+	.productos__video1{
+		margin-right: 5%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__video2{
+		margin-left: 3%;
+		margin-right: 3%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__video3{
+		margin-left: 5%;
+		box-shadow: $boxShadowDark;
+	}
+	.productos__pimentones{
+		font-size: 110%;
+	}
+	.productos__remolacha{
+		font-size: 110%;
+	}
+	.productos__zanahorias{
+		font-size: 110%;
+	}
+	.productos__tomates{
+		font-size: 110%;
+	}
+	.productos__miel{
+		font-size: 110%;
+	}
+	.encuentranos__video1{
+		margin-right: 2%;
+		max-width: 200px;
+	}
+	.encuentranos__canasta{
+		margin-left: 2%;
+		margin-right: 2%;
+		max-width: 200px;
+	}
+	.encuentranos__video2{
+		margin-left: 2%;
+		max-width: 200px;
+	}
+	.encuentranos__titular{
+		font-size: 130%;
+	}
+	.encuentranos__aliados{
+		padding-top: 2%;
+	}
 }
 @media screen and (min-width:998px) and (max-width:1200px) {
 	.main__hero {
@@ -76,6 +211,7 @@
 			font-size: 1rem;
 		}
 	}
+	
 }
 @media screen and (min-width:400px) and (max-width:426px) {
 	.main__hero {
